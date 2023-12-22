@@ -1,0 +1,10 @@
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v1/health_check" for 127.0.0.1 at 2023-12-22 14:56:13 +0000
+Processing by Api::V1::HealthCheckController#index as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2281)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v1/health_check" for 127.0.0.1 at 2023-12-22 14:57:02 +0000
+Processing by Api::V1::HealthCheckController#index as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2281)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m

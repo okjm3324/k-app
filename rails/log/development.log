@@ -1,0 +1,30 @@
+Started GET "/" for 172.18.0.1 at 2023-12-22 10:06:34 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.8ms | Allocations: 583)
+Completed 200 OK in 30ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6367)
+
+
+Started GET "/" for 172.18.0.1 at 2023-12-22 11:11:27 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 582)
+Completed 200 OK in 30ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 6319)
+
+
+Started GET "/api/v1/health_check" for 172.18.0.1 at 2023-12-22 12:01:42 +0000
+Processing by Api::V1::HealthCheckController#index as HTML
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1971)
+
+
+Started GET "/favicon.ico" for 172.18.0.1 at 2023-12-22 12:01:42 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/v1/health_check" for 172.18.0.1 at 2023-12-22 14:46:47 +0000
+Processing by Api::V1::HealthCheckController#index as HTML
+Completed 200 OK in 15644ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 56072)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE `myapp_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE DATABASE `myapp_test` DEFAULT CHARACTER SET `utf8mb4`[0m
